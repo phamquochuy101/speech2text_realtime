@@ -4,7 +4,7 @@ from gtts import gTTS
 import streamlit as st
 from io import BytesIO
 from audio_recorder_streamlit import audio_recorder
-from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
+from streamlit.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
 
 # Set page configuration
 st.set_page_config(
