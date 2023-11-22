@@ -24,7 +24,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 def main():
     st.header('Real Time Translation')
-    st.caption('Written by LPM')
+    
 
     # Set OpenAI API key
     openai.api_key = st.secrets["OPENAI_API_KEY"]
